@@ -1,7 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+
+# Name : K DEEKSHITHA
+# Roll no : 2305002005
+# Date of experiment :
 
 
 
@@ -15,12 +16,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
-4.	 Compile the program and check for the errors 
+4.	Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
@@ -78,25 +79,78 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
+MOV AL,14H
+MOV BL,12H
+ADD AL,BL
+HLT
+```
 
 
 ## Output  
- 
+ ![WhatsApp Image 2024-10-14 at 14 03 52_e940f717](https://github.com/user-attachments/assets/44ddf421-fe73-49ff-95d4-0e89b2e1fea5)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+MOV AL,14H
+MOV BL,12H
+SUB AL,BL
+HLT
+```
 ## Output  
+![WhatsApp Image 2024-10-14 at 14 05 27_dee2b974](https://github.com/user-attachments/assets/28b7ee99-ae86-449a-8b35-2fcc82c46aff)
+
 ## Multiplication alp 
+```
+MOV AL,14H
+MOV BL,12H
+MUL BL
+HLT
+```
  ## Output  
+![WhatsApp Image 2024-10-14 at 14 07 13_6dbfaf98](https://github.com/user-attachments/assets/ae7532e9-b9bb-444c-a0a4-a5f9475ca9cd)
 
 
 ## Division alp 
-
+```
+MOV AL,24H
+MOV BL,12H
+DIV BL
+HLT
+```
 ## Output  
+![WhatsApp Image 2024-10-14 at 14 09 03_3af96acc](https://github.com/user-attachments/assets/e842d99f-c0f1-4590-846c-0dcda37d6b0c)
+# AND of 8 bit ALP
+```
+MOV AL,14H
+MOV BL,12H
+AND AL,BL
+HLT
+```
+# OUTPUT
+![WhatsApp Image 2024-10-14 at 14 11 18_0fa13824](https://github.com/user-attachments/assets/9b470deb-c3a8-4592-a8c5-1bf9f41e6711)
+# OR of 8 bit ALP
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+# OUTPUT
+![WhatsApp Image 2024-10-14 at 14 12 36_d9c96fc7](https://github.com/user-attachments/assets/f521420b-1374-47f4-83cb-24be5677eaae)
 
+# XOR OF 8 BIT ALP
+```
+MOV AL,66H
+MOV BL,27H
+XOR AL,BL
+HLT
+```
+# OUTPUT
+![WhatsApp Image 2024-10-14 at 14 15 32_a9523504](https://github.com/user-attachments/assets/6a886f0a-3629-4285-84e5-59d796d7170b)
 
-## Result :
- 
+# RESULT
+Thus the ALP on the fundamental Arithmetic and Logical operations has been written and executed successfully.
 
 
 
